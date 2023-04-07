@@ -1,7 +1,8 @@
 <script type="application/ld+json">{
                     "@context": "https://schema.org",
                     "@type": "FAQPage",
-                    "@id":"<url>#faq"
+                    "@id":"<url>#faq",
+                    isPartOf":{"@id":"<url>#collectionpage"}, //Na detailu productu to bude  isPartOf":{"@id":"<url>#product"},
                     "mainEntity": [
                    {
                 "@type": "Question",
