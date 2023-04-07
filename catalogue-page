@@ -1,0 +1,31 @@
+"@type":"ItemList",
+"@id":"<url>#itemlist",
+"itemListElement":[
+{
+  "@type":"Product",
+  "url":"https://www.adidas.com.au/ultraboost-light-shoes/HQ6351.html",
+  "@id":"https://www.adidas.com.au/ultraboost-light-shoes/HQ6351.html#product",
+  "name":"Ultraboost Light Shoes",
+  "offers":{
+    "@type":"Offer",
+    "price":"270",
+    "priceCurrency":"AUD",
+    "availability":"https://schema.org/InStock
+    "
+  }
+},
+{
+  "@type":"Product",
+  "url":"https://www.adidas.com.au/ultraboost-light-shoes/HQ6339.html",
+  "@id":"https://www.adidas.com.au/ultraboost-light-shoes/HQ6339.html#product",
+  "name":"Ultraboost Light Shoes",
+  "offers":{
+    "@type":"Offer",
+    "price":"270",
+    "priceCurrency":"AUD",
+    "availability":"https://schema.org/InStock
+    "
+  }
+}
+]
+}
