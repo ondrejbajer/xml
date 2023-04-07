@@ -2,6 +2,7 @@
   {
   "@context":"https://schema.org",
    "@type":"Product",
+   "@id":"<url>#product"
    "name":"<Product name>",
    "description":"<product description>",
    "sku":<sku>,
