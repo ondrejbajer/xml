@@ -1,0 +1,21 @@
+<script type="application/ld+json">{
+                    "@context": "https://schema.org",
+                    "@type": "FAQPage",
+                    "mainEntity": [
+                   {
+                "@type": "Question",
+                "name": "<TADY BUDE TITLE PRVNÍHO FAQ>",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "<TADY BUDE CONTENT PRVNÍHO FAQ>"
+                }
+              },{
+                "@type": "Question",
+                "name": "<TADY BUDE TITLE DRUHÉHO FAQ>",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                 "text": "<TADY BUDE CONTENT DRUHÉHO FAQ>"
+                }
+              }]
+                    }
+</script>
