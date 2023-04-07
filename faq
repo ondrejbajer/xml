@@ -1,6 +1,7 @@
 <script type="application/ld+json">{
                     "@context": "https://schema.org",
                     "@type": "FAQPage",
+                    "@id":"<url>#faq"
                     "mainEntity": [
                    {
                 "@type": "Question",
