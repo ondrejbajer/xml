@@ -1,0 +1,33 @@
+//only on Homepage
+<script type="application/ld+json">
+{
+    "@context":"https://schema.org",
+    "@type":"WebPage",
+    "url":"<url>",
+    "@id":"<url>#webpage",
+    "name":"<název webu>",
+    "description":"<popis webu>",
+    "inLanguage":"cs-CZ" //budu ti to dodávat podle zemí kam pujdeme dál
+    "potentialAction":{
+      "@type":"SearchAction",
+      "target":"<url>?<prefix searche>={search_term_string}",
+      "query-input":"required name=search_term_string"
+  },
+    "sameAs":[
+      "FACEBOOK URL",
+      "INSTAGRAM URL",
+      "YOUTUBE URL",
+      "PŘÍPADNĚ DALŠÍ SOCIÁLNÍ SÍTĚ..."
+    ],
+  "mainEntity":{
+        "@type":"WebSite",
+        "name":"<název webu>",
+        "url":"<url>",
+        "@id":"<url>#website",
+        "about":{
+            "@type":"Thing",
+            "url":"https://en.wikipedia.org/wiki/Search_aggregator",
+            "name":"Product search engine/agregator"
+        },
+}
+</script>
