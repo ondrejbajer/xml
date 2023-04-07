@@ -3,7 +3,7 @@
 "@context":"https://schema.org",
 "@type":"CollectionPage",
 "headline":"<h1>",
-"url":"<url>"
+"url":"<url>",
 "@id":"<url>#collectionpage",
 "relatedLink":[
       "<url podkategorie 1>",
