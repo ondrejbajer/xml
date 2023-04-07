@@ -1,31 +1,49 @@
+<script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@type":"CollectionPage",
+"headline":"<h1>",
+"url":"<url>"
+"@id":"<url>#collectionpage",
+"relatedLink":[
+      "<url podkategorie 1>",
+      "<url podkategorie 2>",
+      "<url podkategorie 3>"
+      ],
+"mainEntity":{"@id":"<url>#itemlist"}
+}
+</script>
+            
+<script type="application/ld+json">
+{
 "@type":"ItemList",
 "@id":"<url>#itemlist",
+"isPartOf":{"@id":"<url>#collectionpage"},
 "itemListElement":[
 {
   "@type":"Product",
-  "url":"https://www.adidas.com.au/ultraboost-light-shoes/HQ6351.html",
-  "@id":"https://www.adidas.com.au/ultraboost-light-shoes/HQ6351.html#product",
-  "name":"Ultraboost Light Shoes",
+  "url":"<url produktu 1>",
+  "@id":"<url produktu 1>#product",
+  "name":"<name produktu 1>",
   "offers":{
     "@type":"Offer",
-    "price":"270",
-    "priceCurrency":"AUD",
-    "availability":"https://schema.org/InStock
-    "
+    "price":"<cena produktu 1>",
+    "priceCurrency":"<currency pro eshop v dané zemi: CZK>",
+    "availability":"<url dle toho zda je vyprodaný nebo ne: ttps://schema.org/InStock or https://schema.org/OutOfStock>" 
   }
 },
 {
   "@type":"Product",
-  "url":"https://www.adidas.com.au/ultraboost-light-shoes/HQ6339.html",
-  "@id":"https://www.adidas.com.au/ultraboost-light-shoes/HQ6339.html#product",
-  "name":"Ultraboost Light Shoes",
+  "url":"<url produktu 2>",
+  "@id":"<url produktu 2>#product",
+  "name":"<name produktu 2>",
   "offers":{
     "@type":"Offer",
-    "price":"270",
-    "priceCurrency":"AUD",
-    "availability":"https://schema.org/InStock
-    "
+    "price":"<cena produktu 2>",
+    "priceCurrency":"<currency pro eshop v dané zemi: CZK>",
+    "availability":"<url dle toho zda je vyprodaný nebo ne: ttps://schema.org/InStock or https://schema.org/OutOfStock>"
   }
 }
 ]
 }
+</script>
