@@ -1,0 +1,26 @@
+<script type="application/ld+json">
+  {
+  "@context":"https://schema.org",
+   "@type":"Product",
+   "name":"<Product name>",
+   "description":"<product description>",
+   "sku":<sku>,
+   "gtin13":"<gtin>"
+   "image":[
+      "<main img>",
+      "<second img>",
+      ],
+    "brand": {
+        "@type": "Brand",
+        "name": "<název brandu>"
+      },
+    "offers":{
+        "@type":"Offer",
+        "availability":"<zde bude url podle toho zda je nebo není skladem: https://schema.org/InStock or https://schema.org/OutOfStock>",
+        "itemCondition": "https://schema.org/NewCondition",
+        "price":<price>,
+        "priceCurrency":"<zde bude currecny země kde máme shop: CZK>",
+        "url":"<url detaily produktu, na které se zobrauzují i toto st. data>"
+        }    
+}
+</script>
