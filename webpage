@@ -7,18 +7,18 @@
     "@id":"<url>#webpage",
     "name":"<název webu>",
     "description":"<popis webu>",
-    "inLanguage":"cs-CZ" //budu ti to dodávat podle zemí kam pujdeme dál
-    "potentialAction":{
-      "@type":"SearchAction",
-      "target":"<url>?<prefix searche>={search_term_string}",
-      "query-input":"required name=search_term_string"
-  },
+    "inLanguage":"cs-CZ", //budu ti to dodávat podle zemí kam pujdeme dál
     "sameAs":[
       "FACEBOOK URL",
       "INSTAGRAM URL",
       "YOUTUBE URL",
       "PŘÍPADNĚ DALŠÍ SOCIÁLNÍ SÍTĚ..."
     ],
+    "potentialAction":{
+      "@type":"SearchAction",
+      "target":"<url>?<prefix searche>={search_term_string}",
+      "query-input":"required name=search_term_string"
+  },
   "mainEntity":{
         "@type":"WebSite",
         "name":"<název webu>",
@@ -29,5 +29,6 @@
             "url":"https://en.wikipedia.org/wiki/Search_aggregator",
             "name":"Product search engine/agregator"
         },
+    }
 }
 </script>
